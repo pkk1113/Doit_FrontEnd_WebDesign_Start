@@ -1,0 +1,27 @@
+<!-- ex1.html -->
+<!-- 외부 파일에서 가져오기 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- media속성은 "screen"이 Default입니다. -->
+    <link rel="stylesheet" href="css/style.css" media="screen">
+
+    <!-- media속성이 "print"의 경우, 사이트를 프린트시 아래의 css가 적용됩니다. -->
+    <link rel="stylesheet" href="css/print.css" media="print">
+
+    <!-- media속성에 추가로 조건을 넣어 다른 css를 적용시킬 수 있습니다. -->
+    <!-- 아래의 예시는 너비 0~768px에서의 적용될 css입니다. -->
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:768px)">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <p>외부 파일에서 가져오기</p>
+</body>
+
+</html>
